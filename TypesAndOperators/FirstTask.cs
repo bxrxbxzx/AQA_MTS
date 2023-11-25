@@ -15,21 +15,21 @@ public class FirstTask
         Console.Write("Введите второе число: ");
         int secondNumber = Convert.ToByte(Console.ReadLine());
         
-        int result;
+        int result = 0;
         
         switch (operation)
         {
             case "+":
                 result = firstNumber + secondNumber;  
-                Console.WriteLine($"Ответ : {result}");
+
                 break;
             case "-":
                 result = firstNumber - secondNumber;  
-                Console.WriteLine($"Ответ : {result}");
+
                 break;
             case "*":
                 result = firstNumber * secondNumber;  
-                Console.WriteLine($"Ответ : {result}");
+
                 break;
             case "/":
                
@@ -45,6 +45,6 @@ public class FirstTask
 
                 break;
         }
-
+        Console.WriteLine($"Ответ : {result}");
     }
 }
